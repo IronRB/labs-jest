@@ -1,0 +1,22 @@
+{
+  "name": "jest-hello-world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Robert Carmona",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "jest": "^27.0.6",
+    "supertest": "^6.1.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
